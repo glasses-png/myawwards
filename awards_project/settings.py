@@ -25,6 +25,7 @@ INSTALLED_APPS = [
     'awards.apps.AwardsConfig',
     'rest_framework',
     'registration',
+    'bootstrap3',
 
 ]
 MIDDLEWARE = [
