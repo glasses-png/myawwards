@@ -178,7 +178,7 @@ def search(request):
     return render(request, 'search.html',{'message':message ,'title':title, 'searched_projects':searched_projects,'profile':profile})
 
   else:
-    message = 'You haven\'t searched for any users'
+    message = 'You haven\'t searched for any projects'
     
     title = 'Search Error'
     return render(request,'search.html',{'message':message,'title':title,'profile':profile})
