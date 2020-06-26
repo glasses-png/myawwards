@@ -7,7 +7,7 @@ class ProfileTestClass(TestCase):
   Test class that tests profile
   """
   def setUp(self):
-    self.prof =Profile(profpic='test.jpg', bio='test bio', contact='j.yayah@gmail.com',user=1)
+    self.prof =Profile(profpic='test.jpg', bio='test bio', contact='cchelangat16@gmail.com',user=1)
 
   def test_instance(self):
       self.assertTrue(isinstance(self.prof, Profile))
