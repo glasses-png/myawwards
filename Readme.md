@@ -76,5 +76,5 @@ Open the application on your browser `127.0.0.1:8000`.
 If you have any question or contributions, please email me at [cchelangat16@gmail.com]  
   
 ## License  
-* Copyright (c) 2020 **Charlotte Chelang'at
+* Copyright (c) 2020 **Charlotte Chelang'at**
 
