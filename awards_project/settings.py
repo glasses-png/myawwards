@@ -29,7 +29,7 @@ SECRET_KEY = 'qt0_#20n9cts8cf@am3@$x!xn&@zzpdq&ie7(590dq2n@%vr&h'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = '*'
 
 #login redirection
 
@@ -47,7 +47,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'awards.apps.AwardsConfig',
-    # 'tinymce',
     'rest_framework',
     'registration',
 
